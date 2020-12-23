@@ -1,0 +1,24 @@
+Decay Upsilon(4S)
+1.0 B0  anti-B0   VSS_BMIX dm;
+Enddecay
+
+Decay anti-B0
+1.0   D*+  e-  anti-nu_e BGL 0.02596 -0.06049 0.01311 0.01713 0.00753 -0.09346; # FF values taken from [arxiv:2008.09341]
+Enddecay
+
+CDecay B0
+
+Decay D*+
+1.0 D0  pi+     VSS;
+Enddecay
+
+CDecay D*-
+
+Decay D0
+1.0   K-  pi+   PHSP; # [PDG2019]
+Enddecay
+
+CDecay anti-D0
+
+
+End
